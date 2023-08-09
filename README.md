@@ -19,7 +19,7 @@
   sayfasında sağ üst köşedeki buluna
    wifi ikonu ile takip edilebilir. İkon tint kırmızı ise unavailable'ı,
   yeşil ise available'ı temsil etmektedir.
-- Connection değişikliklerini hemen algılar ve ona göre hemen paging source kaynağını değiştirir.
+- Connection değişikliklerini hemen algılar ve ona göre hemen paging source kaynağını değiştirir. Remote üzerinden veri alması için wifi yada mobil veri kaynaklarından birinin açık olması yeterlidir. Eğer her ikiside kapalı olursa room'a yönelir ve ekran update edilir. Yine connection available duruma gelirse algılar ve remote üzerinden sayfayı update eder. 
 - Hem retrofit ile beslerken hem de room ile beslerken geriye dönük 10 gün tarih filtrelemesi ile data gösterildi.
   Yine her iki durumda da fab buton ile tarih filtresi girilirse, girilen filtreye göre o tarih aralığındaki data gösterildi.
 
