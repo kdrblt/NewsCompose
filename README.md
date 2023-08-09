@@ -10,7 +10,7 @@
 - Coil
 - Navigation
 
-
+## Detaylar
 - Uygulama listeleme ve haber detay ekranı olmak üzere toplamda 2 ekrandan oluşmaktadır
 - Listeleme sayfası için, internet connection state bir callback ile sürekli dinlendi.
   Connection available ise paging'i varsa room'a cache ettiğim source ettim. Eğer connection unavailable ise
