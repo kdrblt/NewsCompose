@@ -17,5 +17,6 @@
   paging'i retrefit ile besledim. Bunlar için iki source mekanizması mevcut. Connectivity durumu listeleme
   sayfasında sağ üst köşedeki buluna wifi ikonu ile takip edilebilir. İkon tint kırmızı ise unavailable'ı,
   yeşil ise available'ı temsil etmektedir.
-  
+<img width="244" alt="Unavailable - Room does'nt have any data" src="https://github.com/kdrblt/NewsCompose/assets/132228860/8e657476-cd56-4fe6-943a-a57099e8b321">
+
 
