@@ -14,8 +14,10 @@
 - Uygulama listeleme ve haber detay ekranı olmak üzere toplamda 2 ekrandan oluşmaktadır
 - Listeleme sayfası için, internet connection state bir callback ile sürekli dinlemeye alındı.
   Connection available ise paging'i remote data üzerinden source ettim. Eğer connection unavailable ise
-  paging'i kaydedilmiş data varsa room datası üzerinden source ettim. Bunlar için iki paging source mekanizması mevcut. Connectivity durumu listeleme
-  sayfasında sağ üst köşedeki buluna wifi ikonu ile takip edilebilir. İkon tint kırmızı ise unavailable'ı,
+  paging'i kaydedilmiş data varsa room datası üzerinden source ettim. Bunlar için iki paging source mekanizması mevcut.
+ - Connectivity durumu listeleme
+  sayfasında sağ üst köşedeki buluna
+   wifi ikonu ile takip edilebilir. İkon tint kırmızı ise unavailable'ı,
   yeşil ise available'ı temsil etmektedir.
 - Connection değişikliklerini hemen algılar ve ona göre hemen paging source kaynağını değiştirir.
 - Hem retrofit ile beslerken hem de room ile beslerken geriye dönük 10 gün tarih filtrelemesi ile data gösterildi.
